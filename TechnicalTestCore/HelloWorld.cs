@@ -1,12 +1,12 @@
-﻿namespace TechnicalTestCore
-{
-    using System;
-
-    internal class HelloWorld
+﻿    using System;
+    namespace TechnicalTestCore
     {
-        public static void SayHelloToTheWorld(string[] args)
+        internal class HelloWorld
         {
-            // Write a method body which makes the corresponding unit test in the 'TechnicalTestUnitTests' project pass
+        public static void SayHelloToTheWorld(string method)
+
+           { 
+            Console.WriteLine("Hello World!");
         }
     }
 }
